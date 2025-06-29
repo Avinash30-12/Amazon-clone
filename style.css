@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 50px;
+    width: 115px;
+}
+.logo{
+    background-image: url("logo.webp");
+    background-size:cover;
+    height: 50px;
+    width: 100%;
+
+}
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+/** box2 **/
+.add-top{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+.add-bottom{
+    font-size: 1rem;
+    margin-left: 5px;
+}
+.addicon{
+    display: flex;
+    align-items: center;
+}
+.navsearch{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(240, 240, 89);
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+}
+ 
+.Select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+.input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.searchicon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    font-size: 1.2rem;
+    background-color: rgb(249, 166, 32);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0f1111;
+}
+.navsearch:hover{
+    border: 2px solid orange;
+}
+span{
+    font-size: 0.7rem;
+}
+.navsec{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.cart i{
+    font-size: 30px;
+
+}
+.cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.paneloption p{
+    display: inline;
+    margin: 13px;
+}
+.paneloption{
+       width: 70%;
+       font-size: 0.85rem;
+      
+}
+.deal{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.hero{
+    background-image: url("heroimage.jpg");
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.message{
+    height: 40px;
+    background-color: white;
+    color: #0f1111;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 80%;
+    margin-bottom: 10px;
+}
+.message a{
+    color: #007185;
+}
+.shopsection{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(238, 154, 238);
+}
+
+.box{
+    border: 2px solid black;
+    height: 300px;
+    width: 22%;
+    background-color: white;
+}
